@@ -1,4 +1,4 @@
-[stackoverflow] Stack Overflow Example
+[Stack Overflow Example][stackoverflow]
 
 Many to many relationship join returns duplicated data for certain columns.
 
