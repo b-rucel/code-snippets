@@ -27,6 +27,29 @@ Use that for right now, we will fix it later
     GRANT ALL PRIVILEGES ON DATABASE example to dbuser;
 
 — grant on tables
-    GRANT ALL PRIVILEGES ON TABLE example TO dbuser;
     GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO dbuser;
-    ALTER TABLE example OWNER TO dbuser;
+
+    \connect example;
+
+    \dt
+
+
+    admins-air-2:code-snippets bruce$ /usr/local/bin/psql postgres
+    psql (9.4.4)
+    Type "help" for help.
+
+    postgres=# CREATE USER dbuser WITH PASSWORD 'dbpass';
+    CREATE ROLE
+    postgres=# CREATE DATABASE example;
+    CREATE DATABASE
+    postgres=# GRANT ALL PRIVILEGES ON DATABASE example to dbuser;
+    GRANT
+    postgres=# GRANT ALL PRIVILEGES ON ALL TABLES IN SCHEMA public TO dbuser;
+    GRANT
+    postgres=# \connect example;
+    You are now connected to database "example" as user "bruce".
+    example=# \dt
+    No relations found.
+    example=# 
+
+
