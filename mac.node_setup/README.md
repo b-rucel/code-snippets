@@ -20,6 +20,8 @@ Installing nvm is super simple, just download and execute the install script pro
 
 Terminal Output:
 
+![Installing NVM](https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/install.nvm.png "Installing NVM")
+
     admins-air-2:code-snippets bruce$ 
     admins-air-2:code-snippets bruce$ curl https://raw.githubusercontent.com/creationix/nvm/v0.25.4/install.sh | bash
       % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
@@ -124,3 +126,7 @@ output
 
 Now you can freely switch between node versions. ^^
 
+
+[install_nvm]: https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/install.nvm.png "Installing NVM"
+[nvm_command]: https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/nvm.png "NVM command"
+[install_node]: https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/install.node.png "Installing Node.js"
