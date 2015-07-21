@@ -59,6 +59,8 @@ You can check the installation with:
     
 output
 
+![NVM Command](https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/nvm.png "NVM Command")
+
     Node Version Manager
 
     Usage:
@@ -93,6 +95,7 @@ output
     
 #### Installing Node.js
 
+![Installing Node.js](https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/install.node.png "Installing Node.js")
 
     admins-air-2:code-snippets bruce$ nvm install v0.10.0
     ######################################################################## 100.0%
@@ -126,7 +129,3 @@ output
 
 Now you can freely switch between node versions. ^^
 
-
-[install_nvm]: https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/install.nvm.png "Installing NVM"
-[nvm_command]: https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/nvm.png "NVM command"
-[install_node]: https://github.com/b-rucel/code-snippets/blob/master/mac.node_setup/install.node.png "Installing Node.js"
