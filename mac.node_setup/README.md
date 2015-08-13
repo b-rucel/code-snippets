@@ -8,7 +8,8 @@ Installing and managing node.js can be done easily if you use nvm, which stands 
 Using nvm, you can install multiple, self-contained versions of Node.js which will allow you to control your environment easier. It will give you on-demand access to the newest versions of Node.js, but will also allow you to target previous releases that your app may depend on.
 
 #### Installing NVM
-> pre-requisites
+> __pre-requisites__
+
 * Xcode Command Line Tools
 * git
 
