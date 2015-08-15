@@ -1,6 +1,7 @@
-import React from 'react';
+import React from 'react';  
+import Router from 'react-router';  
+import routes from 'routes';
 
-React.render(  
-    <h1>Webpack Guide</h1>,
-    document.getElementById('app')
-);
+Router.run(routes, Router.HistoryLocation, (Root, state) => {  
+    React.render(<Root {...state}/>, document.getElementById('app'));
+});
