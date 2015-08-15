@@ -7,8 +7,6 @@ class IssueDetail extends React.Component {
     }
 
     render() {
-        console.log(this);
-        console.log(this.pro);
         const issue = this.props.issue;
 
         if(!issue) {
