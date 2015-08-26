@@ -44,15 +44,18 @@ More requirements to install when I ran android:
 ![] (https://raw.githubusercontent.com/b-rucel/code-snippets/master/phonegap.development-setup/02%20-%20run%20android%20SDK.png "Java SE 6 runtime needed")
 
 
-[photo]
 
 install java first
 
-[photo]
+
 
 SDK manager window opens then you can choose which android version SDK tools you want to download
 
-[photo]
+![] (03%20-%20choose%20android%20version.png "android SDK manager")
+
+![] (04%20-%20install%20android%20.png "android SDK runtime")
+
+![] (05%20-%20install%20results.png "android SDK install results")
 
 
 make sure java and ant are executable
@@ -62,7 +65,8 @@ install apache ant
 
     brew install ant
 
-[photo]
+![] (06%20-%20brew%20install%20ant.png "android SDK runtime")
+
 
 
 install cordova cli tool
