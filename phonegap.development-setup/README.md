@@ -38,6 +38,10 @@ after that I ran the android SDK manager from cli
     ~/android/tools/android
 
 
+More requirements to install when I ran android: 
+![] (https://raw.githubusercontent.com/b-rucel/code-snippets/master/phonegap.development-setup/02%20-%20run%20android%20SDK.png "Java SE 6 runtime needed")
+
+
 [photo]
 
 install java first
