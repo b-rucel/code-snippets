@@ -16,6 +16,8 @@ Please refer to phonegap's documentation to get the extra help you might need.
 
 I just use the SDK Tools instead of entire IDE. I'm using
 [24.3.4](http://dl.google.com/android/android-sdk_r24.3.4-macosx.zip) at the time of this writing.
+
+![] (01%20-%20android%20SDK.png "android SDK download")
 <br /><br />
 
 unzip the contents of the file android-sdk_r24.3.4-macosx.zip
