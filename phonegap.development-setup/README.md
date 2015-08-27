@@ -73,10 +73,16 @@ install cordova cli tool
 
     npm install -g cordova
 
+![] (07%20-%20npm%20install%20cordova.png "cordova npm package install")
 
-[photo]
 
 
+Now you can create a corodva project from the command line, go through the next few steps:
+
+    cordova create hello com.example.hello HelloWorld
+
+
+![] (08%20-%20create%20android%20project%5D.png "cordova create application")
 
 
  
